@@ -52,7 +52,7 @@ int main() {
             //Записване на първия ред
             myfile << "Умножениете числа от масива са.\n";
             //Записване на втория ред и масива във формат
-            myfile << "масив = {";
+            myfile << "int arr[" << arrayLength << "] = {";
             for (int i = 0; i < arrayLength; i++) {
                 int l = arr[arrayLength - 1]; 
                 if(arr[i] != l){
@@ -73,5 +73,3 @@ int main() {
     }
     return 0;
 }
-
-
