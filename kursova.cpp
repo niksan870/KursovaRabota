@@ -10,6 +10,8 @@ int main() {
     int arrayLength;
     //Тригер за while loop
     bool isReady = false;
+    //Дефиниране на масива
+    int arr[arrayLength];
     
     //Цикълът ще се извършва докато валидацията не премине успешно
     while (!isReady) {
@@ -27,8 +29,6 @@ int main() {
             continue;
         }
         
-        //Дефиниране на масива
-        int arr[arrayLength];
     
         /*
             - АЛГОРИТЪМ - за умножение на индексите в масива
